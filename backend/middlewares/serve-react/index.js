@@ -29,7 +29,7 @@ module.exports = (strapi) => {
 
       const staticDir = path.resolve(
         strapi.dir,
-        "../frontend/build" || strapi.config.paths.static
+        "../../frontend/build" || strapi.config.paths.static
       );
 
       strapi.router.get(
