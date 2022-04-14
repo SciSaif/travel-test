@@ -9,7 +9,7 @@
     "build": "strapi build",
     "strapi": "strapi",
     "client": "npm start --prefix frontend",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.7",
